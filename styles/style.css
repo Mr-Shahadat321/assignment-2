@@ -296,6 +296,55 @@ h2 .shop {
 
 }
 
+/* footer-section */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left .fa-solid {
+    font-size: 4rem;
+    color: #E95A08;
+    margin-bottom: 10px;
+}
+.footer-left-description {
+    font-size: 22px;
+    color: #00000080;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.list-1 li {
+    list-style: none;
+}
+
+.list-1 li a {
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.list-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.list-2 li {
+    list-style: none;
+}
+.list-2 li a {
+    text-decoration: none;
+     color: #6B7280;
+}
+
+.footer-icon img{
+    margin-left: 30px;
+    text-align: center;
+    
+}
+
 
 
 /* media-responsive- */
@@ -307,11 +356,17 @@ h2 .shop {
     .nav-list-3 {
         display: none;
     }
+    .nav-bar {
+
+    }
 
     /* nav-banner */
     .nav-banner {
         flex-direction: column-reverse;
         margin: 50px auto;
+    }
+    .nav-banner-left{
+        padding-left: 15px;
     }
 
     .nav-title {
@@ -358,5 +413,14 @@ h2 .shop {
      .btn {
         padding: 21px 35px;
      }
-
+    /* footer-section */
+    .footer-container {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+        
+    }
+    .footer-icon {
+        padding-top: 20px;
+    }
 }
