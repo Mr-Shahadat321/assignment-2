@@ -168,6 +168,38 @@ h2 .shop {
     border: none;
 }
 
+/* plant-lover-section */
+.plants-lover-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+.plant-lover-left img {
+    max-width: 540px;
+    max-height: 590px;
+}
+.trusted-seller img {
+    max-width: 280px;
+    max-height: 280px;
+    position: absolute;
+    top: -122px;
+    right: 610px;
+}
+.plant-lover-title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.plants-list .plant-item{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -199,5 +231,20 @@ h2 .shop {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+
+    /* plant-lover-section */ 
+    .plants-lover-section {
+        flex-direction: column;
+    }
+    .plant-lover-left img {
+        ;
+    }
+    .trusted-seller {
+        display: none;
+    }
+   .plant-lover-title {
+    font-size: 2rem;
+    margin-top: 10px;
+   }
 
 }
