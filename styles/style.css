@@ -439,10 +439,14 @@ h2 .shop {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+    .card {
+        width: 100%;
+    }
 
     /* plant-lover-section */
     .plants-lover-section {
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .trusted-seller {
